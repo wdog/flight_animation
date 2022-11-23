@@ -9,11 +9,11 @@
 }
 
 .header {
-  @apply bg-blue-900 text-white;
+  @apply bg-blue-900 text-blue-50;
 }
 
 .footer {
-  @apply bg-blue-300 text-white;
+  @apply bg-blue-300 text-blue-800;
 }
 
 .flight-zone {
@@ -21,5 +21,5 @@
 }
 
 .plane {
-  @apply absolute top-[50%] left-0 h-32;
+  @apply absolute top-[50%] left-0 h-64;
 }
