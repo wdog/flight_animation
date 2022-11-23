@@ -1,6 +1,8 @@
 # flight animation
 
-!(logo)[./src/images/fly.png]
+<img src="./src/images/fly.png" width=300 />
+
+
 
 based on https://youtu.be/fR0tHI0nFYk
 
