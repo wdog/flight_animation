@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header,
+.flight-zone,
+.footer {
+  @apply flex justify-center h-screen items-center text-9xl font-semibold font-sans;
+}
+
+.header {
+  @apply bg-blue-300;
+}
+
+.footer {
+  @apply bg-blue-900 text-white;
+}
+
+.flight-zone {
+  @apply bg-gradient-to-t from-blue-900 to-blue-300 relative overflow-hidden;
+}
+
+.plane {
+  @apply absolute top-[50%] left-0 h-32;
+}
